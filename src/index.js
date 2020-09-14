@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './Header';
 import * as serviceWorker from './serviceWorker';
+import Course from './Course';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('header')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Course/>
+  </React.StrictMode>,
+  document.getElementById('content')
 );
 
 // If you want your app to work offline and load faster, you can change

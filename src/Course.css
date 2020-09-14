@@ -1,0 +1,19 @@
+.container-course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+}
+
+.course-header{
+    display: flex;
+    justify-content: center;
+}
+
+.container-course-card{
+    display: flex;
+    /* align-content: space-between; */
+    justify-content: center;
+    
+}
