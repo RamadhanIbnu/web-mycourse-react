@@ -6,7 +6,7 @@ const CourseCard = (props) =>{
     return(
         <div className='card'>
             <div className="video-card">
-            <iframe width="200" height="100" src={props.url} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="video-course" width="200" height="100" src={props.url} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
             </div>
             <div className='about-card'>
                 <h4>{props.title}</h4>
