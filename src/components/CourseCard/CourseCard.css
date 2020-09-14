@@ -7,7 +7,7 @@
 }
 
 .video-card{
-    display: flex;
+    margin:10px;
     width: 200px;
     height: 100px;
     border: 1px solid black;

@@ -13,7 +13,8 @@
 
 .container-course-card{
     display: flex;
-    /* align-content: space-between; */
+    width: 100%;
+    align-content: space-between;
     justify-content: center;
     
 }
